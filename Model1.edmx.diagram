@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f132e75b38d343ae83c59c2fb54cfbb2" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="TradeModel.kategor" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.MUNUFF" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Namee" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Order" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.OrderProduct" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.provader" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.punkt" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Role" Width="1.5" PointX="5.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.status" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.User" Width="1.5" PointX="8" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="TradeModel.FK_Product_kategor" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Product_MUNUFF" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Product_Namee" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK__OrderProd__Order__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Order_punkt" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Order_status" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_OrderProduct_Product1" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Product_provader" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK__User__UserRole__267ABA7A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

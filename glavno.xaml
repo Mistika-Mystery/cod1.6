@@ -1,0 +1,17 @@
+﻿<Page x:Class="cod1._6.glavno"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cod1._6"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="glavno">
+
+    <Grid>
+        <Button x:Name="btavtoriz" Content="avtoriz" HorizontalAlignment="Center" Margin="0,225,0,0" VerticalAlignment="Top" Width="200" Click="btavtoriz_Click"/>
+        <Button x:Name="btreg" Content="registr" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top" Width="200" Click="btreg_Click"/>
+        <Button x:Name="btkatalog" Content="katalog" HorizontalAlignment="Center" Margin="0,139,0,0" VerticalAlignment="Top" Width="200"/>
+
+    </Grid>
+</Page>
